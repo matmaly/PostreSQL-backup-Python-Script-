@@ -5,7 +5,7 @@ with open('README.md','r') as f:
 
 setup(
 	name='pgbackup'
-	version='0.1.0'
+	version='0.1.1'
 	author='Mateusz Maly'
 	author_email='mateuszfmaly@gmail.com'
 	description='Utulity for backing up PostreSQL dbs'
