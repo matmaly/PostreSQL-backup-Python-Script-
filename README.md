@@ -32,7 +32,11 @@ $ pip install --user -e .
 Follow these steps to start developing with this project:
 
 1. Ensure `pip` and `pipenv` are installed
+<<<<<<< HEAD
 2. Clone repository: `git clone git@github.com:example/pgbackup`
+=======
+2. Clone repository: `git clone https://github.com/matmaly/PostreSQL-backup-Python-Script-.git`
+>>>>>>> cb524cedd3716d09bc0adbd2f59107dede62cf3e
 3. `cd` into the repository
 4. Activate virtualenv: `pipenv shell`
 5. Install dependencies: `pipenv install`

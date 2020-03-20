@@ -8,4 +8,8 @@ verify_ssl = true
 [packages]
 
 [requires]
+<<<<<<< HEAD
 python_version = "3.6"
+=======
+python_version = "3.5"
+>>>>>>> cb524cedd3716d09bc0adbd2f59107dede62cf3e
