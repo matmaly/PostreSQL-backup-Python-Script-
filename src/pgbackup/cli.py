@@ -1,4 +1,10 @@
-from argparse import ArgumentParser
+from argparse import Action,ArgumentParser
+
+class DriverAction(Action):
+    def __call__(self, parser, namespace, values, option_string=None):
+        driver, destination = values
+        namespace.driver = driver.lower()
+        namespace.destination = destination
 
 def create_parser():
     parser = ArgumentParser(description="""
@@ -9,6 +15,6 @@ def create_parser():
     parser.add_argument("--driver",
             help="how and where to store the backup",
             nargs=2,
-            action=DriverAction
+            action=DriverAction,
             required=True)
     return parser
